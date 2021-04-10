@@ -8,7 +8,7 @@ from PIL import ImageEnhance as imEnh
 import Framework
 import heapq
 
-imagen = "lab2.pnasdasg"
+imagen = "lab2.pnasdasasdg"
 
 def criteria(problem, algorithm):
     if algorithm == "BFS":
