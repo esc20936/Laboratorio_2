@@ -93,24 +93,3 @@ def start(algorithm):
     problem = Framework.Framework(initial, goal, img)
 
     path = graph_search(problem,algorithm)
-
-
-
-    if path:
-        path.pop()
-        for pixel in path:
-            img.putpixel(pixel,(0,0,255))
-    for pixel in Green_Pixels:
-        img.putpixel(pixel,(0,255,0))
-
-    img.putpixel(initial,(255,0,0))
-
-    # save the image to a file
-    if algorithm=="a*":
-        algorithm = "a_star"
-    img.save(f"GENERATED_SOLUTION_{imagen.split('.')[0]}_{algorithm}.png")
-
-
-algorithms = ["BFS", "DFS", "a*"]
-for algorithm in algorithms:
-    start(algorithm)
