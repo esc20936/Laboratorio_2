@@ -1,0 +1,7 @@
+LICENSE2.txt
+README.md
+setup.py
+BayesianNetworksPablo.egg-info/PKG-INFO
+BayesianNetworksPablo.egg-info/SOURCES.txt
+BayesianNetworksPablo.egg-info/dependency_links.txt
+BayesianNetworksPablo.egg-info/top_level.txt
